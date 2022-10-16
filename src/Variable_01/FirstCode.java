@@ -7,7 +7,9 @@ public class FirstCode {
         System.out.println("***");
         System.out.println("****");
 
-//        System.out.println("Hello, World!\n");
-//        System.out.println("Hello Bangladesh!!");
+        int a=130;
+        byte b=(byte)a;
+        System.out.println(a);
+        System.out.println(b);
     }
 }
