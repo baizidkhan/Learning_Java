@@ -2,22 +2,19 @@ package Variable_01;
 
 public class Second {
     public static void main(String[] args) {
-//        System.out.println("Hey!!");
-        int a = 12, b = 5;
+        int a = 4;
+        int var;
 
-        // addition operator
-        System.out.println("a + b = " + (a + b));
+        // assign value using =
+        var = a;
+        System.out.println("var using =: " + var);
 
-        // subtraction operator
-        System.out.println("a - b = " + (a - b));
+        // assign value using =+
+        var += a;
+        System.out.println("var using +=: " + var);
 
-        // multiplication operator
-        System.out.println("a * b = " + (a * b));
-
-        // division operator
-        System.out.println("a / b = " + (a / b));
-
-        // modulo operator
-        System.out.println("a % b = " + (a % b));
+        // assign value using =*
+        var *= a;
+        System.out.println("var using *=: " + var);
     }
 }
