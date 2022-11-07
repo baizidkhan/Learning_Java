@@ -2,7 +2,7 @@ package Variable_01;
 
 public class FirstCode {
     public static void main(String[] args) {
-        System.out.println("*");
+/*        System.out.println("*");
         System.out.println("**");
         System.out.println("***");
         System.out.println("****");
@@ -20,6 +20,15 @@ public class FirstCode {
 
         // Remaindering num1 and num2
         mod = num1 % num2;
-        System.out.println("Remainder = " + mod);
+        System.out.println("Remainder = " + mod); */
+
+        int[] age = {12, 4, 5};
+
+        // loop through the array
+        // using for loop
+        System.out.println("Using for Loop:");
+        for(int i = 0; i < age.length; i++) {
+            System.out.println(age[i]);
+        }
     }
 }
